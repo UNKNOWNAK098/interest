@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<title>Hello, World!</title>
+</head>
+<body>
+		<button onclick="btn()">Click me</button>
+		<script>
+		function btn(){
+		let p=parseInt(prompt('Enter your Principle Amount')),
+    t=parseInt(prompt('Enter your time period')),
+    r=parseInt(prompt('Enter your rate of interest')),
+    siEvaluate=p*t*r,
+    sInterest=siEvaluate/100,
+    principle=sInterest+p;
+window.alert('Interest = '+sInterest)
+window.alert('Amount = '+principle)}</script>
+</body>
+</html>
